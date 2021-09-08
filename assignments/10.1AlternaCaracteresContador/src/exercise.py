@@ -1,6 +1,10 @@
 def main():
-    #escribe tu código abajo de esta línea
-    pass
+    n = int(input('Ingrese la cantidad a repetir los símbolos: '))
 
-if __name__=='__main__':   
+    for numero in range (n):
+        if numero % 2 == 0:
+            print('#')
+        else:
+            print('%')
+if __name__ == '__main__':
     main()
